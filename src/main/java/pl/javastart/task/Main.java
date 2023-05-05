@@ -6,6 +6,7 @@ public class Main {
 
         // tutaj możesz przeprowadzać manualne testy listy
         CustomList<Integer> list = new CustomList<>();
+        System.out.println(list.size());
         list.add(1);
         list.add(2);
         list.add(3);
@@ -24,7 +25,6 @@ public class Main {
         list.remove(0);
         System.out.println(list);
         System.out.println(list.size());
-        list.remove(0);
 
         // lista powinna być parametryzowana (analogicznie jak java.util.ArrayList czy java.util.LinkedList)
         CustomList<String> customListOfStrings = new CustomList();
